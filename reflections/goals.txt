@@ -1,0 +1,3 @@
+My goal with this course is that I will understand a little more about Ruby. I have a project with friends from University for which we have found an OpenSource code on GitHub of a platform from a crowdfunding website and it’s written on Ruby, so, to develop the project, I have to understand the code that is written. 
+
+Also my motivation is that we can create amazing projects programming, as an entrepreneur I think that there are thousands of opportunities for that.
