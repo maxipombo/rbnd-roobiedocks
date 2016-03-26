@@ -29,9 +29,13 @@ code.slice!(0)
 
 code = code.insert(11, "A EW? O")
 code = code.delete "Q?,"
-code = code.downcase
-code = code.reverse
-code = code.capitalize
+
+code = code.downcase.reverse.capitalize
+# This line could also be done separately
+# code = code.downcase
+# code = code.reverse
+# code = code.capitalize
+
 puts code
 # ========================
 
