@@ -14,7 +14,7 @@ code = "M.E?CIQN E?RS, D?NA EQC,IN S,,I Z?TQAM,"
 
 # ---------------------------------------------------------------
 # | 0. Remove the first character in the code.                  |
-# | 1. Insert the string "A EW? 0" at the code's 11th position. |
+# | 1. Insert the string "A EW? O" at the code's 11th position. |
 # | 2. Remove all instances of the characters 'Q', '?', and ','.|
 # | 3. STOP SHOUTING. Make the entire code lowercase, for now.  |
 # | 4. Reverse the order of the characters in the code.         |
@@ -24,8 +24,9 @@ code = "M.E?CIQN E?RS, D?NA EQC,IN S,,I Z?TQAM,"
 
 # All your code should go between these lines!
 # ========================
-code = code.reverse.chop.reverse
-# I changed the number "0" for the letter "O", it will bring a better result
+code.slice!(0)
+# This line could also be done with: code = code.reverse.chop.reverse
+
 code = code.insert(11, "A EW? O")
 code = code.delete "Q?,"
 code = code.downcase
